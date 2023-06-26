@@ -1,0 +1,22 @@
+{
+  "name": "com.sense-company.rituals",
+  "version": "1.0.0",
+  "description": "Adds support for Rituals devices",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-athom": "^2.1.0"
+  }
+}

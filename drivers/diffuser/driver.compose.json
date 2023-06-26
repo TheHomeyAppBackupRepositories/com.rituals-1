@@ -1,0 +1,66 @@
+{
+	"name": {
+		"en": "Wireless Perfume Diffuser",
+		"nl": "Draadloze Parfum Diffuser"
+	},
+	"class": "other",
+	"capabilities": [
+		"onoff",
+		"rituals_perfume",
+		"rituals_fill"
+	],
+	"connectivity": [
+		"cloud"
+	],
+	"images": {
+		"large": "/drivers/diffuser/assets/images/large.png",
+		"small": "/drivers/diffuser/assets/images/small.png"
+	},
+	"platforms": [
+		"local",
+		"cloud"
+	],
+	"pair": [
+		{
+			"id": "login",
+			"template": "login_credentials",
+			"options": {
+				"logo": "rituals-logo.png",
+				"usernameLabel": {
+					"en": "E-mail address",
+					"nl": "E-mailadres"
+				},
+				"usernamePlaceholder": {
+					"en": "john@doe.com"
+				}
+			}
+		},
+		{
+			"id": "list_devices",
+			"template": "list_devices",
+			"navigation": {
+				"next": "add_devices"
+			}
+		},
+		{
+			"id": "add_devices",
+			"template": "add_devices"
+		}
+	],
+	"repair": [
+		{
+			"id": "login",
+			"template": "login_credentials",
+			"options": {
+				"logo": "rituals-logo.png",
+				"usernameLabel": {
+					"en": "E-mail address",
+					"nl": "E-mailadres"
+				},
+				"usernamePlaceholder": {
+					"en": "john@doe.com"
+				}
+			}
+		}
+	]
+}
